@@ -1,0 +1,7 @@
+spacy==3.4.4
+python-dotenv==0.13.0
+fastapi==0.92.0
+requests==2.23.0
+uvicorn==0.20.0
+pydantic==1.10.2
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.1/en_core_web_sm-3.4.1.tar.gz

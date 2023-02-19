@@ -1,0 +1,12 @@
+**/.DS_Store
+**/*.md
+!README.md
+**/.gitignore
+**/.gitmodules
+**/.git
+**/docs
+**/pdoc
+**/htmlcov
+**/__pycache__
+**/*.pyc
+**/*.egg-info
