@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  process_text:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: process_text
+    ports:
+      - "8000:8000"
+    restart: always

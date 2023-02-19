@@ -18,6 +18,9 @@ from pydantic import BaseModel
 dotenv_path = find_dotenv()
 load_dotenv(dotenv_path)
 
+log_level = os.environ.get("LOG_LEVEL", "INFO")
+logging.basicConfig(level=log_level)
+
 # Load spaCy language model
 nlp = spacy.load("en_core_web_sm")
 dir_path = os.path.dirname(os.path.realpath(__file__))
