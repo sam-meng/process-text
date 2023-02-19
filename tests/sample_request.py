@@ -4,9 +4,7 @@ import requests
 headers = {"Content-Type": "application/json"}
 
 url = "http://0.0.0.0:8000/process_text"
-payload = (
-    '{"text": "This is a demonstration of a text processing API endpoint using spaCy."}'
-)
+payload = ('{"text": "This is a sample text"}')
 response = requests.request("POST", url, data=payload, headers=headers)
 print("POST /process_text")
 print(f"{payload}")
